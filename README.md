@@ -1,5 +1,6 @@
 # CollectionSite
-Ce site web a été mis sur pied dans le cadre d'un projet dont l'objectif est de créer un jeu de données pour la tache de détection automatique de message haineux en machine learning. Le jeu de données devrait etre propre au contexte locale (camerounais).
+L'objectif est d'implémenter un outil pour la création d'un jeu de données destinée à la tache de détection automatique de message haineux en machine learning. 
+L'outil devrait donc avoir deux grandes fonctionnalité. La section vote, qui permettra d'effectuer l'étiquettage et la section ajout qui permetrra d'ajouter de nouveaux messages.
 
 ## 1. Section Vote
 
@@ -9,8 +10,7 @@ Où on a un ensemble de message déjà collecté, l'utilisateur devra voter ou a
 
 Elle n'est pas encore totalement implémenté, mais l'idéé est qu'elle devrait permettre à un utilisateur d'ajouter un message ou commentaire pour augmenter le jeu de données. 
 
-
-## 2. Start
+## 3. Start
 
 L'implémentation a été effectué en utilisant PHP, HTML, CSS, et JS. 
 
